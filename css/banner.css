@@ -1,0 +1,226 @@
+
+/* --Banners  top -------------------------- 	*/
+
+.top1 .banner{
+	FILTER: progid:DXImageTransform.Microsoft.Alpha( style=0,opacity=80); 
+	background:#FEFEE6;
+	display:block;
+	font-weight: normal;	
+	padding:5px;
+	margin:0px 0px 10px 10px;
+	text-align:center;
+	width:80%;
+	border:1px solid #768EE8;
+	}
+.top1 .banner table h1 {
+	background:transparent;
+	display:block;
+	width:auto;
+	font-size: 15px;
+	color: #FF0806;
+	margin:  0px 0px 3px 0px;
+	padding: 0px 0px 0px 0px;
+	font-weight: bold;
+	border:0px;
+	text-transform:none;
+	text-align:center;
+	}
+.top1 .banner table h2 {
+	margin:  3px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	}
+.top1 .banner .content {
+	padding:0px;
+	color:#333;
+	text-align:left;	
+	font-size:11px;
+	width:95%;
+	text-align:center;
+	}
+.top1 .banner .content a {	
+	font-size:1px;
+	float:right;
+	}
+.top1 .banner table img {
+	text-align:left;	
+	}
+/* --Banners  left-foto -------------------------- 	*/
+
+.left .left_foto{
+	background:#EEEEEE;
+	padding:10px 5px;
+	text-align:center;
+	border:1px solid #999;
+	}
+.left .left_foto_title{
+	color:#FFF;
+	font-size:10px;
+	background:#999;
+	margin-left:20px;
+	padding:3px;	
+	text-transform:uppercase;
+	width:80px;
+	margin-top:10px;
+	text-align:center;
+	}
+.left .left_foto .image img{
+	1border:1px solid #ddd;
+	margin:1px 0px;	
+	}
+.left .left_foto .border{
+	background:#666 url(../img/dot_photo.gif) repeat-y center;
+	1border:1px solid #ddd;
+	}
+.left .left_foto table{
+	margin-bottom:5px;	
+	}
+
+	
+/* --Banners  left -------------------------- 	*/
+
+.left .banner{
+	display:block;
+	font-weight: normal;	
+	padding:5px;
+	margin:10px 0px 0px 0px;
+	1background:#FFE1E1;
+	text-align:center;
+	1border:1px solid #999;
+	1width:80%;
+	}
+.left .banner table h1 {
+	font-size: 14px;
+	color: #186DC3;
+	margin:  0px 0px 0px 0px;
+	padding: 5px 0px 0px 5px;
+	font-weight: bold;
+	border:0px;
+	text-transform:none;
+	background:#DDEEFF;
+	width:auto;
+	}
+.left .banner .content {
+	padding:5px;
+	color:#797979;
+	text-align:left;	
+	font-size:11px;
+	width:85%;
+	}
+.left .banner .content a {	
+	font-size:11px;
+	}
+.left .banner table img {
+	padding:2px;
+	color:#797979;
+	text-align:center;	
+	font-size:11px;
+	border:1px solid #FFF;
+	}
+/* --Banners  left -------------------------- 	*/
+
+.right .banner{
+	display:block;
+	font-weight: normal;	
+	padding:0px;
+	margin:0px 0px 12px;
+	1background:#FFF;
+	border:1px solid #FFF;
+	}
+.right .banner h2 {
+	font-size: 12px;
+	color: #990B0B;
+	margin:  0px 0px 5px 0px;
+	padding: 0px 0px 0px 5px;
+	font-weight: bold;
+	border:0px;
+	text-transform:none;
+	}
+.right .banner .content {
+	padding:5px;
+	color:#555;
+	text-align:left;	
+	font-size:11px;
+	1width:85%;
+	background:#FDFBEE;
+	}
+.right .banner .content a {	
+	font-size:11px;
+	}
+.right .banner table img {
+	padding:2px;
+	color:#797979;
+	text-align:left;	
+	font-size:11px;
+	1border:1px solid #ccc;
+	margin:0px;
+	}
+	
+/* --Banners  center top-------------------------- 	*/
+
+#content .banner_big{
+	display:block;
+	font-weight: normal;	
+	padding:5px;
+	margin:5px 0px;
+	padding:0px;
+	background:#020106;
+	border-top:5px solid #C7C7C7;
+	border-bottom:5px solid #C7C7C7;
+	float:left;
+	width:100%;
+	text-align:center;
+	}
+
+#content .banner_big img {
+	padding:0px;
+	text-align:left;	
+	font-size:11px;
+	border:0px solid #ccc;
+	margin:0px;
+	}	
+
+/* --Banners  center top-------------------------- 	*/
+
+#content .banner{
+	display:block;
+	font-weight: normal;	
+	padding:0pxpx;
+	margin:0px 0px 10px;
+	background:#FCF4C9;
+	1border:1px solid #DFD2A8;
+	1float:left;
+	1width:90%;
+	text-align:left;
+	}
+#content .banner h2 {
+	border-top:0px solid #ddd;
+	font-size: 16px;
+	color: #BD0000;
+	margin:  0px 0px 5px 0px;
+	padding: 5px 0px 0px 5px;
+	font-weight: bold;
+	text-transform:none;
+	}
+#content .banner .content {
+	padding:5px;
+	color:#333;
+	text-align:left;	
+	font-size:12px;
+	width:85%;
+	1background:#FFF;
+	}
+#content .banner .content a {	
+	1display:block;
+	font-size:11px;
+	1background:#FFF;
+	1padding:2px 3px;
+	}
+#content .banner table img {
+	padding:0px;
+	color:#797979;	
+	font-size:11px;
+	1border:1px solid #0077D5;
+	padding:1px;
+	margin:0px 10px 0px 3px;
+	float:left;
+	}

@@ -1,0 +1,5 @@
+<p align="center">
+<a href="index.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','img/knopka-2.jpg',1)"><img src="img/knopka.jpg" name="Image11" width="141" height="20" border="0"></a>
+<a href="about.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','img/knopka-4.jpg',1)"><img src="img/knopka-3.jpg" name="Image12" width="141" height="20" border="0"></a>
+<a href="spec.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','img/knopka-6.jpg',1)"><img src="img/knopka-5.jpg" name="Image13" width="153" height="20" border="0"></a>
+<a href="contact.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','img/knopka-8.jpg',1)"><img src="img/knopka-7.jpg" name="Image18" width="141" height="20" border="0"></a> 

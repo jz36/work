@@ -1,0 +1,47 @@
+		<!--#set var="title" value="Агентство образовательных   путешествий - БРИТАНИКС" -->
+<!--#set var="keywords" value="агенство, путешествий, британикс, britannix, britanix,  адресс, адрес, телефон, Екатеринбург" -->
+<!--#set var="description" value="Британикс находится в городе Екатеринбург, ул. Гоголя 15а, телефон +7 (343) 378-55-85" -->
+<!--#include virtual="/header.inc" -->
+                    <blockquote> 
+                    <div align="left">
+                        <p>&nbsp;<font color="#FF0000" size="2" face="Arial"><strong>КОНТАКТЫ</strong></font></p>
+                        <table width="65%" border="0" bgcolor="#FFBD9D">
+                          <tr>
+                            <td><p><font color="#FF0000" face="Arial" size="2"><b>Наш 
+                                адрес</b></font></p></td>
+                          </tr>
+                        </table>
+                        <p><font size="2" face="Arial">620151, г. Екатеринбург<br>
+                          <strong><font color="#0000FF">ул. Гоголя, 15а, оф. 9. </font></strong>                          <br>
+                          Вход в ворота между Британским и Американским консульствами.<br>
+                          Тел / факс:<font color="#0000FF"> <strong>(343)</strong></font> 
+                          </font> <font color="#0000FF" face="Arial" size="2"><b>375-65-00</b></font><font size="2" face="Arial"><br>
+                          e-mail: </font><a href="mailto:info@britannix.ru"><font color="#0000FF" face="Arial" size="2">info@britannix.ru</font></a><font size="2" face="Arial"><br>
+                          <font color="#990000">Часы работы:</font><br>
+                          С понедельника по пятницу<br>
+                          <font color="#0000FF"><strong>10.00 до 18.00</strong></font> 
+                          (по предварительной договоренности до<font color="#FF0000"> 
+                          <strong>20.00</strong></font><font color="#990000"><font color="#000000">)</font> 
+                          </font></font></p>
+                        <table width="65%" border="0" bgcolor="#FFBC9B">
+                          <tr> 
+                            <td><p><b><font color="#FF0000" face="Arial, Helvetica, sans-serif" size="2">Как 
+                                до нас доехать</font></b></p></td>
+                          </tr>
+                        </table>
+                        <p><font size="2" face="Arial">Троллейбусы <font color="#009900"><strong>1, 
+                          3, 5, 9, 11, 15, 17, 19</strong> </font>до остановки 
+                          пр. Ленина; <strong>7, 17</strong> до остановки остановки 
+                          Горького.<br>
+                          Трамваи <font color="#FF0000"><strong>2, 6, 13, 15, 
+                          18, 26,</strong></font> А до остановки пр. Ленина.<br>
+                          Автобусы <font color="#FF0000"><strong>1, 33</strong></font> 
+                          до остановки «Гост. Центральная»; <strong>14, 25, 32</strong> 
+                          до остановки Горького; <strong>28, 50, 61</strong> до 
+                          остановки «Площадь труда»; <strong>23, 57</strong> до 
+                          остановки «Музей Свердлова» / «Архитектурный институт».</font></p>
+                          <BR>
+                          <img src="img/map.gif">                          
+                    </div>
+                    </blockquote>
+<!--#include virtual="/footer.inc" -->

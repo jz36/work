@@ -1,0 +1,89 @@
+
+/* --- opros -------------------------------*/
+div.vote {
+	1border:1px solid #999;
+	1border-right:0px;
+	background:#E5F0FC;
+	margin:10px 0px 10px 0px;
+	padding:5px 5px 5px 10px;
+	text-align:left;
+	font-size:11px;
+	color:#333;	
+	1width:80%;
+	}
+div.votepopup {
+	width:80%;
+	}
+div.votepopup_close {
+	display:block;
+	background-color:#E8E8E8;
+	width:20%;
+	margin:5px 0px 0px 10px;
+	padding:3px 10px 3px 10px;
+	}
+div.votepopup_close a{
+	font-size:11px;
+	}	
+	
+ div.vote table, div.vote table{
+	width:100%;
+	border:0px;
+	border:0px solid #fff;
+	background-image:url(img/0.gif);
+	background-repeat:no-repeat;
+	}
+ div.vote table td, div.vote table td{
+	border:0px solid #fff;
+	background-image:url(img/0.gif);
+	background-repeat:no-repeat;
+	margin:  0px ;
+	padding: 0px ;
+	}
+ div.vote h2, div.vote h2 {
+	font-size: 11px;
+	color: #0069B7;
+	1background:#FFF;
+	margin:  0px;
+	padding: 3px 5px 0px;
+	font-weight: bold;
+	}
+ div.vote div.vote_comment, div.vote div.vote_comment {
+	font-size: 10px;
+	color: #333;
+	margin:  5px 5px 5px 5px;
+	padding: 0px 5px 3px 0px;
+	font-weight: normal;
+	border-bottom:1px solid #aaa;
+	}
+ div.vote .check, div.vote .check{
+	margin:  0px 0px ;
+	padding: 0px ;
+	vertical-align:top;
+	border:0px;
+	}
+ div.vote .vote_item, div.vote .vote_item {
+	font-size: 11px;
+	color: #666;
+	margin:  0px 5px 5px 0px;
+	padding: 3px 5px 0px 5px;
+	font-weight: normal;
+	}
+ div.vote .submit, div.vote .submit{
+	width:70%;
+	height:19px;
+	margin-left:22px;
+	}
+ div.vote div {
+	text-align:left;
+	padding-left:27px;
+	
+	}
+ div.vote .line_bg, div.vote .line_bg {
+	background-color:#F1F1F1;
+	border:1px solid #C4C4C4;
+	}
+ div.vote .line_red, div.vote .line_red {
+	background-color:#398BFF;
+	padding:0px;
+	margin:0px;
+	}

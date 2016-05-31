@@ -1,0 +1,93 @@
+ /* --- forum -------------------------------*/
+
+.quote,.quote A {
+	1background-color: #eee;
+	color: #666;
+	font-size: 11px;
+	}			
+div.quote {
+	background-color: #FDFBEE;
+	color: #666;
+	margin: 5px 5px 5px 5px;
+	padding: 6px;
+	}		
+div.menu_in {
+	1background-color: #ECECEC;
+	1border:1px solid #0060C6;
+	color: #666;
+	margin: 1px;
+	padding: 3px;
+	text-align:right;
+	}
+.menu_in,.menu_in A,.menu_in A:hover,.menu_in A:link,.menu_in A:visited {
+	1background-color:#FF850D;
+	border:1px solid #FFF;
+	padding:2px 1px 2px 1px;
+	1color: #FF520F;
+	font-size: 11px;
+	}
+table.table_forum {
+	padding:3px;
+	margin:0px;
+	border-top: 1px solid #ddd;
+	border-bottom: 0px solid #ddd;	
+	width:100%;
+	background-color: #FFF;
+	}
+table.table_forum tr {
+	}
+table.table_forum td {
+	1border-bottom: 1px solid #ddd;	
+	border-right: 1px solid #fff;
+	margin:2px;
+	padding:0px;
+	}
+table.table_forum th {
+	font-size: 11px;
+	font-weight: normal;
+	color: #FFF;
+	background-color: #B70404;
+	height: 17px;
+	padding:3px;
+	}
+table.table_forum td.divider {
+	background-color: #EBEBEB;
+	border-bottom: 0px solid #FF850D;	
+	border-right: 0px solid #FF850D;
+	1border-top: 1px solid #0060C6;
+	padding:0px;
+	margin:0px;
+	border:0px solid #fff;
+	height:1px;
+	}
+table.table_forum .cit td {
+	1background-color:#FF850D;
+	1border:1px solid #FFF;
+	padding:0px;
+	font-size: 10px;
+	}
+table.table_forum .cit td A,table.table_forum .cit td A:hover,table.table_forum .cit td A:link,table.table_forum .cit td A:visited {
+	padding:0px 5px 0px 1px;
+	font-size: 10px;
+	color: #aaa;
+	}
+table.table_forum_form {
+	padding:3px;
+	margin:0px;
+	border: 1px solid #ddd;
+	border-bottom: 3px solid #ddd;	
+	width:100%;
+	background-color: #FFF;
+	}
+table.table_forum_form tr {
+	}
+table.table_forum_form td {
+	border-bottom: 1px solid #ddd;	
+	border-right: 1px solid #fff;
+	background-color: #FDFBEE;
+	margin:2px;
+	padding:3px;
+	}
+div.forum_icons {
+	margin-top:20px;	
+	}

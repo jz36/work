@@ -1,0 +1,28 @@
+.rtop,.rbottom{display: none}
+
+.rtop,.rbottom{display:block}
+.rtop *,.rbottom *{display:block;height: 1px;overflow: hidden}
+.r1{margin: 0 5px; 
+	border-top:0px solid #666;
+	}
+.r2{margin: 0 3px;
+	border-right:0px solid #666;
+	border-left:0px solid #666;	
+	}
+.r3{margin: 0 2px;
+	border-right:0px solid #666;
+	border-left:0px solid #666;	
+	}
+.r4{margin: 0 1px;height: 2px;
+	border-right:0px solid #666;
+	border-left:0px solid #666;	
+	}
+
+.rs1{margin: 0 2px; 
+	border-top:0px solid #666;
+	}
+.rs2{margin: 0 1px;
+	border-right:0px solid #666;
+	border-left:0px solid #666;
+	}
+

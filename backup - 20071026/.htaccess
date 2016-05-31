@@ -1,0 +1,2 @@
+CharsetSourceEnc windows-1251
+AddHandler server-parsed .html .htm .inc .shtml

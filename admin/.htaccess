@@ -1,0 +1,7 @@
+DirectoryIndex index.php
+
+<IfModule mod_charset.c>
+	CharsetDisable on
+ 	CharsetRecodeMultipartForms off 
+ 	CharsetRecodeMethodsIn None
+</IfModule>

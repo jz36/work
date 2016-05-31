@@ -1,0 +1,113 @@
+<html>
+<head>
+<title>
+Настройка таблицы
+</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<style>
+<!--
+tr td {border: 0px solid #7F9DB9; background-color:#F5F5F5; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; }
+input {border: 1px solid #7F9DB9; width:100}
+select {width:100;}
+
+.header {background-color:#ECE9D8; font: 8pt; font-weight:bold;}
+.smallfnt{color:#666;font:7pt;}
+-->
+</style>
+</head>
+<script language=JavaScript>
+var s=0;
+function CreateTableParams()
+{
+var attr="";
+
+//build 2april2004
+
+if((document.forms["TableP"].cellsp.value!='') && (!isNaN(document.forms["TableP"].cellsp.value)))
+	{
+    attr=attr+"cellspacing="+document.forms["TableP"].cellsp.value+" ";
+    }
+if((document.forms["TableP"].cellpd.value!='') && (!isNaN(document.forms["TableP"].cellpd.value)))
+	{
+    attr=attr+"cellpadding="+document.forms["TableP"].cellpd.value+" ";
+    }
+if((document.forms["TableP"].brd.value!='') && (!isNaN(document.forms["TableP"].brd.value)))
+	{
+    attr=attr+"border="+document.forms["TableP"].brd.value+" ";
+    }
+if(document.forms["TableP"].tblwidth.value!='')
+	{
+    attr=attr+"width="+document.forms["TableP"].tblwidth.value+" ";
+    }
+
+return attr;
+}
+
+function CreateCellParams()
+{
+var attr="";
+if(document.forms["TableP"].m_valign.value!='middle')
+	{
+    attr=attr+"valign="+document.forms["TableP"].m_valign.value+" ";
+    }
+if(document.forms["TableP"].m_align.value!='left')
+	{
+    attr=attr+"align="+document.forms["TableP"].m_align.value+" ";
+    }
+if(document.forms["TableP"].m_bgcolor.value!='')
+	{
+    attr=attr+"bgcolor="+document.forms["TableP"].m_bgcolor.value+" ";
+    }
+if((document.forms["TableP"].m_width.value!='') && (!isNaN(document.forms["TableP"].m_width.value)))
+	{
+    attr=attr+"width="+document.forms["TableP"].m_width.value+" ";
+    }
+if((document.forms["TableP"].m_height.value!='') && (!isNaN(document.forms["TableP"].m_height.value)))
+	{
+    attr=attr+"height="+document.forms["TableP"].m_height.value+" ";
+    }
+if(document.forms["TableP"].m_nowrap.checked)
+	{
+    attr=attr+"nowrap ";
+    }
+
+return attr;
+}
+
+function SendRequest()
+{
+document.forms["TableP"].TableAttrs.value=CreateTableParams();
+document.forms["TableP"].CellAttrs.value=CreateCellParams();
+
+window.returnValue=document.forms["TableP"].Rows.value+"|"+document.forms["TableP"].Colls.value+"|"+document.forms["TableP"].Caption.value+"|"+document.forms["TableP"].TableAttrs.value+"|"+document.forms["TableP"].CellAttrs.value;
+s=1;
+window.close();
+}
+</script>
+<body topmargin=0 leftmargin=0 marginwidth=0 marginheight=0 rightmargin=0 bottommargin=0 onunload="if(s==0) {window.returnValue='none';window.close();}">
+<table cellpadding=0 cellspacing=4>
+<tr><td valign=top style="border: 1px solid #cccccc; color: #000000;">
+<table cellpadding=3 cellspacing=2 bgcolor=#FFFFFF>
+<tr height=25><td colspan=2 align=center class=header>Параметры создаваемой таблицы</td></tr>
+<form name="TableP">
+<tr><td>Заголовок таблицы:<div class=smallfnt>&nbsp;</div></td><td><input type=text name=Caption value=""></td></tr>
+<tr><td>Cтрок:<div class=smallfnt>&nbsp;</div></td><td><input type=text name=Rows value="3"></td></tr>
+<tr><td>Cтолбцов:<div class=smallfnt>&nbsp;</div></td><td><input type=text name=Colls value="3"></td></tr>
+<tr><td>Cellpadding:<div class=smallfnt>отступ в ячейке</div></td><td><input type=text name=cellsp value="0"></td></tr>
+<tr><td>Cellspacing:<div class=smallfnt>отступ между ячейками</div></td><td><input type=text name=cellpd value="0"></td></tr>
+<tr><td>Border:<div class=smallfnt>рамка вокруг таблицы</div></td><td><input type=text name=brd value="0"><input type=hidden name=TableAttrs value=""></td></tr>
+<tr><td>Width:<div class=smallfnt>ширина таблицы</div></td><td><input type=text name=tblwidth value="100%"></td></tr></table>
+</td><td valign=top style="border: 1px solid #cccccc; color: #000000;">
+<table cellpadding=3 cellspacing=2 bgcolor=#FFFFFF>
+<tr height=25><td colspan=2 align=center class=header>Параметры ячеек<input type=hidden name=CellAttrs value=""></td></tr>
+<tr><td>Valign:<div class=smallfnt>вертикальное выравнивание</div></td><td><select name=m_valign><option value="top">top</option><option value="middle" selected>middle</option><option value="bottom">bottom</option><option value="baseline">baseline</option></select></td></tr>
+<tr><td>Align:<div class=smallfnt>горизонтальное выравнивание</div></td><td><select name=m_align><option value="left" selected>left</option><option value="center">center</option><option value="right">right</option></select></td></tr>
+<tr><td>Bgcolor:<div class=smallfnt>цвет фона</div></td><td><input type=text name=m_bgcolor value=""></td></tr>
+<tr><td>Width:<div class=smallfnt>ширина ячейки</div></td><td><input type=text name=m_width value=""></td></tr>
+<tr><td>Height:<div class=smallfnt>высота ячейки</div></td><td><input type=text name=m_height value=""></td></tr>
+<tr><td>Nowrap:<div class=smallfnt>не переносить слова</div></td><td><input type=checkbox name=m_nowrap style="width:19px"></td></tr>
+</table>
+</td></tr>
+<tr><td align=right bgcolor=#ffffff><input type=button name=sbm value="Создать" onClick='SendRequest();'></td><td><input type=button name=can value="Отменить" onClick="window.returnValue='none';window.close();"></td></tr></form>
+</table>
+</body>

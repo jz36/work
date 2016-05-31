@@ -1,0 +1,217 @@
+/*------- menu flag  ------------------------------------------*/
+
+.menu_flag {
+	
+	}
+.flag_item {
+	1vertical-align:bottom;
+	text-align:center;
+	height:82px;
+	}
+.flag_title {
+	text-align:center;
+	padding:3px 7px 0px;
+	}
+.flag_title a,.flag_title A:visited,.flag_title A:active,.flag_title A:link,.flag_title A:hover {
+	color:#FFC412;
+	font-size:11px;
+	text-transform:uppercase;
+	text-decoration:none;
+	font-weight:normal;
+	}
+.flag_title A:hover {	
+	1text-decoration:none;
+	color:#FFF;
+	1background:#A93E3D;
+	}
+/*------- menu style  ------------------------------------------*/
+.menu {
+	display:block;
+	height:27px;
+	background:#BD0000 url(../img/31.gif) no-repeat top left;
+	padding:0px 20px 0px 70px;
+	1vertical-align:bottom;
+	1width:75%;
+	}
+.menu-item {
+	text-align:center;
+	vertical-align:bottom;
+	padding:5px 10px;
+	1height:21px;	
+	}
+.menu-item a,.menu-item A:visited,.menu-item A:active,.menu-item A:link,.menu-item A:hover {
+	font-family:  Verdana, Arial, Tahoma, sans-serif;
+	color:#FFF;
+	display:block;
+	font-size:11px;	
+	text-decoration:none;
+	text-transform:uppercase;
+	font-weight:normal;
+	}
+.menu-item A:hover {	
+	1text-decoration:none;
+	color:#333;
+	1background:#A93E3D;
+	}
+.menu-item_is {
+	background:#A00000;
+	border-left:3px solid #880000;
+}
+.menu-item_is a,.menu-item_is A:visited,.menu-item_is A:active,.menu-item_is A:link,.menu-item_is A:hover {
+	display:block;
+	bottom:-1px;
+	position:relative;
+	text-decoration:none;
+	font-weight:bold;
+	color:#FFF;
+	font-size:11px;	
+	}
+
+/* -- ???? ??????? ?????? -------------------------- 	*/
+
+table.new_left_menu {
+	text-align:left;
+	margin:10px 5px 0px 0px;
+	padding:0px 0px 10px;
+	border:1px solid #eee;
+}
+	table.new_left_menu td {
+		display:block;
+		background:url(../img/m2_li.gif) no-repeat center left;
+		padding:0px 10px 0px 15px;
+		margin:5px 0px 0px 5px;
+		font-weight: normal;	
+		float:left;
+	}
+	table.new_left_menu td.no_fon {
+		display:block;
+		background: none;
+		padding:0px 10px 0px 15px;
+		margin:5px 0px 0px 5px;
+		font-weight: normal;	
+		float:left;
+	}	
+	table.new_left_menu td a, table.new_left_menu td.no_fon a {
+		color: #004172;
+		text-decoration: none;
+		font-size:11px;
+	}
+	table.new_left_menu td a:hover, table.new_left_menu td.active a:hover {
+		color: #980300;
+		text-decoration: underline;
+	}
+	
+	table.new_left_menu td a.current {
+		color: #980300;
+		text-decoration: none;
+	}	
+	table.new_left_menu td a.current:hover { text-decoration: underline; }
+	
+table.new_left_submenu {
+	/*border: solid 1px red;*/
+}
+
+.menu2 {
+	text-align:left;
+	margin:10px 5px 0px 0px;
+	padding:0px 0px 10px;
+	border:1px solid #eee;
+}
+.menu2-item {
+	display:block;
+	background:url(../img/m2_li.gif) no-repeat center left;
+	padding:0px 10px 0px 15px;
+	margin:5px 0px 0px 5px;
+	font-weight: normal;	
+	float:left;
+}
+.menu2-item A, .menu2-item A:visited {
+	color: #004172;
+	text-decoration: none;
+	font-size:11px;
+	}
+.menu2-item A:hover {
+	color: #980300;
+	text-decoration: underline;
+	font-size:11px;
+	}
+.menu2-item_is {
+	font-weight: normal;	
+	background:url(../img/m2_li.gif) no-repeat center left;
+}
+.menu2-item_is A, .menu2-item_is A:visited {
+	color: #BD0000;
+	text-decoration: none;
+	}
+.menu2-item_is A:hover {
+	color: #980300;
+	text-decoration: underline;
+	}
+
+/* -- Menu3  -------------------------- 	*/
+
+.menu3-item {
+	background:#eee;
+	padding:5px 5px 2px 10px;
+	margin-left:15px;
+	font-weight: normal;	
+}
+.menu3-item A, .menu3-item A:visited {
+	color: #1D1D1D;
+	text-decoration: none;
+	font-size:11px;
+	}
+.menu3-item A:hover {
+	color: #BB2828;
+	text-decoration: none;
+	font-size:11px;
+	}
+.menu3-item_is {
+	font-weight: bold;	
+}
+.menu3-item_is A, .menu3-item_is A:visited {
+	color: #1D1D1D;
+	text-decoration: none;
+	font-size:11px;
+	}
+.menu3-item_is A:hover {
+	color: #BB2828;
+	text-decoration: none;
+	font-size:11px;
+	}
+/* -- Меню выпадающее -------------------------- 	*/
+
+.popup{
+	background:#F2EDDF;
+	border: 1px solid #D4D4D4;
+	padding: 3px;
+	display: inline;
+	z-index: 2000;
+	width:170px;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	visibility: hidden;
+	FILTER: progid:DXImageTransform.Microsoft.Alpha( style=0,opacity=90); 
+	}
+.popup-item {
+	1background-image:url(img/li1.gif);
+	1background-repeat:no-repeat;
+	1background-position:center left;
+	padding: 2px;
+	padding-left:10px;
+	text-align:left;
+	font-weight: normal;
+	border-bottom:1px solid #ddd;
+	}
+.popup A, .popup A:hover, .popup A:visited {
+	color: #000;
+	font-size:11px;
+	text-decoration: none;
+	}
+.popup A:hover {
+	color: #cc0000;
+	text-decoration: none;
+	font-size:11px;
+	text-decoration: none;
+	}
